@@ -56,3 +56,26 @@
     "limiteDiario": 1000.00
     }
 }
+--cuenta
+{
+    "cuentaId": null,
+    "numeroCuenta": "585545",
+    "tipoCuenta": "Corriente",
+    "saldoInicial": 1000.00,
+    "estado": true,
+    "limit": 50,
+    "cliente": {
+            "clienteId": "6d125956-cf74-4d10-a282-78ca12ffac8f",
+        "password": "1234",
+        "estado": true,
+        "persona": {
+            "personaId": "6d125956-cf74-4d10-a282-78ca12ffac8f",
+            "identificacion": "1303753618",
+            "nombre": "Jose Lema",
+            "genero": "Masculino",
+                "edad": 38,
+            "telefono": "098254785",
+            "direccion": "Otavalo sn y principal"
+    }
+    }
+}
