@@ -46,6 +46,7 @@ public class ClienteServiceImpl implements ClienteService {
         cliente.setPersona(persona);
         cliente = clienteRepository.save(cliente);
         ClientePresenter clientePresenter1 = builClientePresenter(cliente);
+
         return clientePresenter1;
     }
 
